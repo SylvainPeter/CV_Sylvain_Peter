@@ -40,8 +40,12 @@ margin-top: 3em;
 background-color: var(--color1);
 }
 
-.line {
+.underline {
 border-bottom: 2px solid var(--color1);
+}
+
+.lineheight {
+	line-height: 2.5em;
 }
 
 .infos {
