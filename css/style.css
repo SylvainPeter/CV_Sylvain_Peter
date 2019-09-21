@@ -1,6 +1,6 @@
 body {
---color1: gold;
---color2:dimgrey;
+--color1: #FEC907;
+--color2: #3F3F40;
 }
 
 h2 {
@@ -49,8 +49,10 @@ border-bottom: 2px solid var(--color1);
 }
 
 .infos {
-padding-top: 1em;
 background-color: var(--color1);
+padding-right:0;
+padding-left: 0;
+padding-top: 1em;
 }
 
 .resume {
@@ -70,9 +72,16 @@ padding: 5px;
 color: var(--color1);
 }
 
-.job, .text {
+.job {
 color: var(--color2);
 }
+
+.text {
+color: var(--color2);
+padding-right: 3em;
+padding-left: 3em;
+}
+
 
 .loisir {
 color: var(--color2);
