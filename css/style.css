@@ -78,17 +78,21 @@ color: var(--color2);
 
 .text {
 color: var(--color2);
-padding-right: 3em;
-padding-left: 3em;
+padding-right: 3.5em;
+padding-left: 3.5em;
+text-align:justify;
 }
 
 
 .loisir {
+display: block;
 color: var(--color2);
 font-size: 2em;
 border: 2px solid var(--color2);
 border-radius: 50%;
 padding: 10px;
+height: 56px;
+width: 56px;
 }
 
 #flex_loisir {
