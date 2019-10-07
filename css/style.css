@@ -1,7 +1,7 @@
 /* Définition des deux couleurs principales */
 body {
---color1: #FECA07;
---color2: #404040;
+--lightcolor: #FECA07;
+--darkcolor: #404040;
 }
 
 /* Taille du h2 */
@@ -11,13 +11,13 @@ font-size: 1.7em;
 
 /* Aspect des lignes de séparation horizontales */
 hr {
-background-color: var(--color1);
+background-color: var(--lightcolor);
 height: 1px;
 }
 
 /* Couleur de fond de la photo */
 .photo {
-background-color: var(--color1);
+background-color: var(--lightcolor);
 }
 
 /* Mise en page et bordure de la photo */
@@ -37,22 +37,22 @@ padding-left: 60px;
 
 /* Aspect du trait sous le nom du job */
 .underline {
-border-bottom: 2px solid var(--color1);
+border-bottom: 2px solid var(--lightcolor);
 }
 
 /* Couleur du prénom et des icônes */
 .name, .icons {
-color: var(--color1);
+color: var(--lightcolor);
 }
 
 /* Couleur du poste recherché */
 .job {
-color: var(--color2);
+color: var(--darkcolor);
 }
 
 /* Couleur de fond des sections Contact et A propos */
 .infos {
-background-color: var(--color1);
+background-color: var(--lightcolor);
 padding-right:0;
 padding-left: 0;
 padding-top: 1em;
@@ -60,7 +60,7 @@ padding-top: 1em;
 
 /* Couleur et présentation du texte des sections Contact et A propos */
 .text1 {
-color: var(--color2);
+color: var(--darkcolor);
 padding-right: 3.5em;
 padding-left: 3.5em;
 text-align:justify;
@@ -68,8 +68,8 @@ text-align:justify;
 
 /* En-têtes grises des sections Contact, A propos, Loisirs*/
 .darkborder {
-background-color: var(--color2);
-color: var(--color1);
+background-color: var(--darkcolor);
+color: var(--lightcolor);
 text-align: center;
 padding: 5px;
 }
@@ -85,9 +85,9 @@ margin-left: 5em;
 
 /* Aspect des icônes à l'intérieur de la section Loisirs */
 .loisir {
-color: var(--color2);
+color: var(--darkcolor);
 font-size: 2em;
-border: 2px solid var(--color2);
+border: 2px solid var(--darkcolor);
 border-radius: 50%;
 padding: 10px;
 height: 56px;
@@ -103,7 +103,7 @@ padding-right: 60px;
 
 /* Couleur et présentation du texte des sections Formation, Expérience Pro, Langues */
 .text2 {
-color: var(--color2);
+color: var(--darkcolor);
 text-align:justify;
 }
 
