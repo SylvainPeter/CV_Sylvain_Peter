@@ -41,7 +41,13 @@ border-bottom: 2px solid var(--lightcolor);
 }
 
 /* Couleur du prénom et des icônes */
-.name, .icons {
+.name {
+color: var(--lightcolor);
+font-weight: bolder;
+}
+
+/* Couleur des icônes */
+.icons {
 color: var(--lightcolor);
 }
 
